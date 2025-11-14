@@ -1,14 +1,19 @@
 import React from 'react';
-// import styled from 'styled-components';
 import SearchBar from './searchbar';
+import {StyledHedar} from './styledComponents';
 function WebHeader(){
   return(
-    <div>
+    <StyledHedar>
         <div>
-          VS <h1>VidShow</h1>
+          <h3>
+            VS 
+            VidShow
+          </h3>
         </div>
-        <SearchBar />
-    </div>
+        <div>
+          <SearchBar />
+        </div>
+    </StyledHedar>
   );
 }
 export default WebHeader;

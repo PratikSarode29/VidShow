@@ -1,13 +1,17 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
+import {StyledAppContainer} from './styledComponents';
 import WebHeader from './webheader';
 import reportWebVitals from './reportWebVitals';
+<script src="https://kit.fontawesome.com/3539c55f85.js" crossorigin="anonymous"></script>
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <React.StrictMode>
-    <WebHeader />
+  <React.StrictMode> 
+    <StyledAppContainer>
+      <WebHeader />
+    </StyledAppContainer>
   </React.StrictMode>
 );
 
